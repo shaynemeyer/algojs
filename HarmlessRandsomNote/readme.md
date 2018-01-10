@@ -10,3 +10,6 @@ Determine whether we have enough words in our magazine to create our note.
 
 #### Result is False
 We use the word secret twice in the note but it is only found once in the magazine.
+
+## Complexity
+Because there are 2 loops in this algorithm, loop over noteText and loop over magazineText the complexity is **Linear** or **O(n)**. You could also say the loop 1 is O(n) and loop 2 is **O(m)** or combined is **O(n+m)** or **O(n)**.

@@ -1,3 +1,8 @@
+// This algorithm runs in linear time complexity - O(n)
+// loop 1 has an O(n) complexity
+// loop 2 has an O(m) complexity
+// O(n + m) or O(n)
+
 function harmlessRansomNote(noteText, magazineText) {
   var noteArr = noteText.split(' ');
   var magazineArr = magazineText.split(' ');
