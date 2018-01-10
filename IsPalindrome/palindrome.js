@@ -1,7 +1,7 @@
 function isPalindrome(str) {
   str = str.toLowerCase();
   var charactersArr = str.split('');
-  var validCharacters = 'abcdefghijklmnopqrstuvwxy'.split('');
+  var validCharacters = 'abcdefghijklmnopqrstuvwxyz'.split('');
 
   var lettersArr = [];
   charactersArr.forEach(char => {
