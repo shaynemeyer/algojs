@@ -18,3 +18,5 @@ result = [[6, 1], [3, 4], [3, 4]]
 ## Multiple ways to accomplish
 * can be done in O(n^2) time complexity using nest loops
 * can be done in O(n) time complexity using a hash table.
+
+![](two-sum.png)
